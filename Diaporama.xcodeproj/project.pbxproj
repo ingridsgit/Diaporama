@@ -14,6 +14,8 @@
 		8484450C22968C08000D6C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8484450A22968C08000D6C4D /* LaunchScreen.storyboard */; };
 		8484451722968C08000D6C4D /* DiaporamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484451622968C08000D6C4D /* DiaporamaTests.swift */; };
 		8484452222968C08000D6C4D /* DiaporamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484452122968C08000D6C4D /* DiaporamaUITests.swift */; };
+		848445302296D0F4000D6C4D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484452F2296D0F4000D6C4D /* SettingsViewController.swift */; };
+		848445322296DC63000D6C4D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848445312296DC63000D6C4D /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8484451D22968C08000D6C4D /* DiaporamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaporamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8484452122968C08000D6C4D /* DiaporamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaporamaUITests.swift; sourceTree = "<group>"; };
 		8484452322968C08000D6C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8484452F2296D0F4000D6C4D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		848445312296DC63000D6C4D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				8484450822968C08000D6C4D /* Assets.xcassets */,
 				8484450A22968C08000D6C4D /* LaunchScreen.storyboard */,
 				8484450D22968C08000D6C4D /* Info.plist */,
+				8484452F2296D0F4000D6C4D /* SettingsViewController.swift */,
+				848445312296DC63000D6C4D /* UserData.swift */,
 			);
 			path = Diaporama;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				8484450422968C07000D6C4D /* ViewController.swift in Sources */,
 				8484450222968C07000D6C4D /* AppDelegate.swift in Sources */,
+				848445322296DC63000D6C4D /* UserData.swift in Sources */,
+				848445302296D0F4000D6C4D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
