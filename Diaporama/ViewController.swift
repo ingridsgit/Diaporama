@@ -61,7 +61,7 @@ class ViewController: UIViewController {
     }
     
     func setUpTimer(){
-        timer = Timer.scheduledTimer(withTimeInterval: UserData.displayDuration, repeats: true) { (_) in
+        timer = Timer.scheduledTimer(withTimeInterval: UserData.getInstance().displayDuration, repeats: true) { (_) in
             self.incrementI()
             self.setDiapo(imageIndex: self.i)
         }

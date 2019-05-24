@@ -16,14 +16,14 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setDurationText(duration: UserData.displayDuration)
-        setStepperValue(value: UserData.displayDuration)
+        setDurationText(duration: UserData.getInstance().displayDuration)
+        setStepperValue(value: UserData.getInstance().displayDuration)
         // Do any additional setup after loading the view.
     }
     
   
     @IBAction func onStepperClicked(_ sender: UIStepper) {
-        UserData.displayDuration = sender.value
+        UserData.getInstance().displayDuration = sender.value
         setDurationText(duration: sender.value)
     }
     

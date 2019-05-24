@@ -141,7 +141,7 @@
         <!--Navigation Controller-->
         <scene sceneID="zsc-QV-sLE">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnTap="YES" id="LN7-le-yzB" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsWhenVerticallyCompact="YES" id="LN7-le-yzB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="xmw-lO-Tsh">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
